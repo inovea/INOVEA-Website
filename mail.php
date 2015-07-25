@@ -22,7 +22,7 @@
 
         if (mail("inovea.esgi@gmail.com", $subject, $texte, $headers)) {
 			echo "<script>
-			alert('Votre message a bien été envoyé');
+			alert('Votre message a bien ete envoye');
 			window.location.href='index.html';
 			</script>";
         } else {
